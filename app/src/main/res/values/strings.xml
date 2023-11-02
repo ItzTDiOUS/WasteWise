@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- sign_in strings -->
+	<!-- sign_up strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="sign_in_string">Sign in</string>
+	<string name="email_or_user_name_string">Email or User Name</string>
+	<string name="sign_in_please_string">Sign in</string>
+	<string name="passwordn_string">Password</string>
+	<string name="forgot_password___string">Forgot Password ?</string>
+	<string name="or_sign_in_with_string">Or sign in With</string>
+	<string name="don_t_have_account___string">Dont have account ? </string>
+	<string name="_sign_up_string">Sign Up</string>
+	<string name="already_have_account__string">Already have  account?</string>
+	<string name="login_string">Login</string>
+	<string name="passwordn_ek1_string">Confirm Password</string>
+	<string name="sign_up_string">Sign up</string>
+
+
+
+
+</resources>
