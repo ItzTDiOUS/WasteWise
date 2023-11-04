@@ -22,6 +22,37 @@
 	<color name="_bg__sign_up_color">#FFFFFF</color>
 	<color name="sign_up_color">#0E6A1D</color>
 
+	<!-- _home colors -->
+
+
+
+	<color name="_bg____home_color">#000000</color>
+	<color name="_bg__input_text_ek1_color">#FFFFFF</color>
+	<color name="search_color">#BABABA</color>
+	<color name="home_color">#0E0E0E</color>
+	<color name="buying_color">#A58E8E</color>
+
+
+<!--  home colors  -->
+
+
+
+
+<color name="_bg__home_color">#000000</color>
+
+<color name="input_text_ek2_color">#BABABA</color>
+
+<color name="buy_color">#A58E8E</color>
+
+
+	<color name="blue">#436bff</color>
+	<color name="light_black">#4a4a4a</color>
+	<color name="color_white">#fff</color>
+
+	<color name="gray">#EBEBEB</color>
+	<color name="light_red">#a00</color>
+	<color name="sky_blue">#7CD4F7</color>
+
 
 
 

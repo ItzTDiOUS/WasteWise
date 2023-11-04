@@ -1,406 +1,125 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		home
-	 *	@date 		Thursday 02nd of November 2023 08:17:41 AM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
-	<ScrollView android:id="@+id/home" 
-		android:layout_width="wrap_content" 
-		android:layout_height="match_parent"
-		tools:ignore="DuplicateIds">
-
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content" >
-
-			<View   android:id="@+id/_bg__home"
-				android:background="@drawable/_bg__home_shape"
-				 android:layout_marginStart="0dp"
-				android:layout_marginTop="0dp"
-				android:layout_width="414dp"
-				android:layout_height="896dp" />
-
-
-			<RelativeLayout android:id="@+id/input_text"
-				android:layout_marginTop="227dp"
-				android:layout_marginStart="29dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
-
-				<View   android:id="@+id/_bg__input_text_ek1"
-					android:background="@drawable/_bg__input_text_ek1_shape"
-					 android:layout_marginStart="-1dp"
-					android:layout_marginTop="-1dp"
-					android:layout_width="365dp"
-					android:layout_height="45dp" />
-
-
-				<RelativeLayout android:id="@+id/icon___search"
-					android:layout_marginTop="12.5dp"
-					android:layout_marginStart="15dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<View   android:id="@+id/_bg__icon___search_ek1"
-
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="20dp"
-						android:layout_height="20dp" />
-
-					<ImageView android:id="@+id/vector"
-						android:src="@drawable/vector"
-						android:contentDescription="vector"
-						 android:layout_marginStart="1dp"
-						android:layout_marginTop="1dp"
-						android:layout_width="14.83dp"
-						android:layout_height="14.83dp" />
-
-					<ImageView android:id="@+id/vector_ek1"
-						android:src="@drawable/vector_ek1"
-						android:contentDescription="vector_ek1"
-						 android:layout_marginStart="12.38dp"
-						android:layout_marginTop="12.38dp"
-						android:layout_width="5.13dp"
-						android:layout_height="5.13dp" />
-
-				</RelativeLayout>
-
-				<TextView android:id="@+id/input_text_ek2"
-					android:textSize="14sp"
-					android:textColor="@color/input_text_ek2_color"
-					android:layout_marginLeft="47dp"
-					android:layout_marginTop="12.5dp"
-					android:layout_width="59.4dp"
-					android:layout_height="24.4dp"
-					android:text="@string/input_text_ek2_string"
-					 />
-
-			</RelativeLayout>
-
-			<TextView android:id="@+id/what_are_you_looking_for_today_"
-				android:textStyle="bold"
-				android:textSize="24sp"
-				android:textColor="@color/_bg__home_color"
-				android:layout_marginLeft="27dp"
-				android:layout_marginTop="153dp"
-				android:layout_width="384.4dp"
-				android:layout_height="71.4dp"
-				android:text="@string/what_are_you_looking_for_today__string"
-				 />
-
-
-			<RelativeLayout android:id="@+id/info"
-				android:layout_marginTop="35dp"
-				android:layout_marginStart="21dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
-
-				<View   android:id="@+id/_bg__info_ek1"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="372dp"
-					android:layout_height="52.71dp" />
-
-
-				<RelativeLayout android:id="@+id/icon___menu_variant"
-					android:layout_marginTop="16.35dp"
-					android:layout_marginStart="0dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<View   android:id="@+id/_bg__icon___menu_variant_ek1"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="25dp"
-						android:layout_height="25dp" />
-
-					<ImageView android:id="@+id/vector_ek2"
-						android:src="@drawable/vector_ek2"
-						android:contentDescription="vector_ek2"
-						 android:layout_marginStart="2.12dp"
-						android:layout_marginTop="11.5dp"
-						android:layout_width="19.75dp"
-						android:layout_height="1dp" />
-
-					<ImageView android:id="@+id/vector_ek3"
-						android:src="@drawable/vector_ek3"
-						android:contentDescription="vector_ek3"
-						 android:layout_marginStart="2.12dp"
-						android:layout_marginTop="5.25dp"
-						android:layout_width="14.54dp"
-						android:layout_height="1dp" />
-
-					<ImageView android:id="@+id/vector_ek4"
-						android:src="@drawable/vector_ek4"
-						android:contentDescription="vector_ek4"
-						 android:layout_marginStart="2.12dp"
-						android:layout_marginTop="17.75dp"
-						android:layout_width="10.38dp"
-						android:layout_height="1dp" />
-
-				</RelativeLayout>
-
-				<TextView android:id="@+id/trash_to_treasure"
-					android:textStyle="bold"
-					android:textSize="16sp"
-					android:textColor="@color/_bg__home_color"
-					android:layout_marginLeft="96dp"
-					android:layout_marginTop="15.85dp"
-					android:layout_width="152.6dp"
-					android:layout_height="25.6dp"
-					android:text="@string/trash_to_treasure_string"
-					 />
-
-
-				<RelativeLayout android:id="@+id/test_account"
-					android:layout_marginTop="0dp"
-					android:layout_marginStart="310dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<View   android:id="@+id/_bg__test_account_ek1"
-
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="55.2dp"
-						android:layout_height="52.71dp" />
-
-					<ImageView android:id="@+id/__img_test_account_ek2"
-						android:src="@drawable/__img_test_account_ek2"
-
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="55.2dp"
-						android:layout_height="52.71dp" />
-
-				</RelativeLayout>
-
-			</RelativeLayout>
-
-			<TextView android:id="@+id/hello_"
-				android:textStyle="bold"
-				android:textSize="16sp"
-				android:textColor="@color/_bg__home_color"
-				android:layout_marginLeft="24dp"
-				android:layout_marginTop="128dp"
-				android:layout_width="58.6dp"
-				android:layout_height="25.6dp"
-				android:text="@string/hi__user_string"
-				 />
-
-
-			<RelativeLayout android:id="@+id/naigationpage1a"
-				android:layout_marginTop="820dp"
-				android:layout_marginStart="0dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
-
-				<View   android:id="@+id/_bg__naigationpage1a_ek1"
-
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="414dp"
-					android:layout_height="76dp" />
-
-
-				<RelativeLayout android:id="@+id/group_6"
-					android:layout_marginTop="0dp"
-					android:layout_marginStart="-2.5dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<View   android:id="@+id/_bg__group_6_ek1"
-						android:background="@drawable/_bg__group_6_ek1_shape"
-						 android:layout_marginStart="3dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="419dp"
-						android:layout_height="76dp" />
-
-
-					<RelativeLayout android:id="@+id/page_one_nav"
-						android:layout_marginTop="0dp"
-						android:layout_marginStart="0dp"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content"
-						>
-
-						<View   android:id="@+id/_bg__page_one_nav_ek1"
-							android:background="@drawable/_bg__page_one_nav_ek1_shape"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="419dp"
-							android:layout_height="76dp" />
-
-					</RelativeLayout>
-
-				</RelativeLayout>
-
-
-				<RelativeLayout android:id="@+id/home1"
-					android:layout_marginTop="0dp"
-					android:layout_marginStart="0dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<View   android:id="@+id/_bg__home1_ek1"
-
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="103.5dp"
-						android:layout_height="76dp" />
-
-					<ImageView android:id="@+id/home_page"
-						android:src="@drawable/home_page"
-						android:contentDescription="home_page"
-						 android:layout_marginStart="20.57dp"
-						android:layout_marginTop="13.43dp"
-						android:layout_width="62.37dp"
-						android:layout_height="31.36dp" />
-
-					<TextView android:id="@+id/home"
-						android:textStyle="bold"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="12sp"
-						android:textColor="@color/home_color"
-						android:layout_marginLeft="10.25dp"
-						android:layout_marginTop="44.8dp"
-						android:layout_width="85.2dp"
-						android:layout_height="20.97dp"
-						android:text="@string/home_string"
-						 />
-
-				</RelativeLayout>
-
-
-				<RelativeLayout android:id="@+id/buy1"
-					android:layout_marginTop="0dp"
-					android:layout_marginStart="103dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<View   android:id="@+id/_bg___buy1_ek1"
-
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="103.5dp"
-						android:layout_height="76dp" />
-
-					<ImageView android:id="@+id/shopping_cart"
-						android:src="@drawable/shopping_cart"
-						android:contentDescription="shopping_cart"
-						 android:layout_marginStart="36.75dp"
-						android:layout_marginTop="12dp"
-						android:layout_width="30dp"
-						android:layout_height="30dp" />
-
-					<TextView android:id="@+id/buy"
-						android:textStyle="bold"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="12sp"
-						android:textColor="@color/buy_color"
-						android:layout_marginLeft="10.75dp"
-						android:layout_marginTop="42dp"
-						android:layout_width="84.2dp"
-						android:layout_height="25.2dp"
-						android:text="@string/buy_string"
-						 />
-
-				</RelativeLayout>
-
-
-				<RelativeLayout android:id="@+id/sell1"
-					android:layout_marginTop="0dp"
-					android:layout_marginStart="207dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<View   android:id="@+id/_bg___sell1_ek1"
-
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="103.5dp"
-						android:layout_height="76dp" />
-
-					<ImageView android:id="@+id/get_cash"
-						android:src="@drawable/get_cash"
-						android:contentDescription="get_cash"
-						 android:layout_marginStart="36.75dp"
-						android:layout_marginTop="12dp"
-						android:layout_width="30dp"
-						android:layout_height="30dp" />
-
-					<TextView android:id="@+id/sell"
-						android:textStyle="bold"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="12sp"
-						android:textColor="@color/buy_color"
-						android:layout_marginLeft="10.75dp"
-						android:layout_marginTop="42dp"
-						android:layout_width="84.2dp"
-						android:layout_height="25.2dp"
-						android:text="@string/sell_string"
-						 />
-
-				</RelativeLayout>
-
-
-				<RelativeLayout android:id="@+id/not1"
-					android:layout_marginTop="0dp"
-					android:layout_marginStart="311dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<ImageView android:id="@+id/notificationicon"
-						android:src="@drawable/notificationicon"
-						android:contentDescription="notificationicon"
-						 android:layout_marginStart="36.75dp"
-						android:layout_marginTop="14.5dp"
-						android:layout_width="30dp"
-						android:layout_height="30dp" />
-
-					<TextView android:id="@+id/notification"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="12sp"
-						android:textColor="@color/buy_color"
-						android:layout_marginLeft="7.75dp"
-						android:layout_marginTop="44.5dp"
-						android:layout_width="90.2dp"
-						android:layout_height="20.2dp"
-						android:text="@string/notification_string"
-						 />
-
-				</RelativeLayout>
-
-			</RelativeLayout>
-
-		</RelativeLayout>
-
-	</ScrollView>
-</HorizontalScrollView>
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:background="@drawable/_bg____home_shape"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<LinearLayout
+		android:id="@+id/menuBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="#2196F3"
+		app:layout_constraintTop_toTopOf="parent"/>
+
+	<!-- Search Bar -->
+
+	<!-- Static Navigation Bar -->
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/searchBar"
+		android:layout_width="0dp"
+		android:layout_height="65dp"
+		android:layout_marginTop="28dp"
+		android:background="#E0E0E0"
+		android:padding="16dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/menuBar">
+
+		<ImageView
+			android:id="@+id/searchIcon"
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:src="@drawable/search_icon"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@+id/searchEditText"
+			app:layout_constraintHorizontal_bias="0.0"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.515" />
+
+		<SearchView
+			android:id="@+id/searchEditText"
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			android:hint="Search"
+			android:drawableTop="@drawable/_bg__icon___search_ek1_shape"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@+id/searchButton"
+			app:layout_constraintHorizontal_bias="0.0"
+			app:layout_constraintStart_toEndOf="@+id/searchIcon"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<Button
+			android:id="@+id/searchButton"
+			android:layout_width="60dp"
+			android:layout_height="60dp"
+			android:background="#D6D6D6"
+			android:text="Search"
+			android:textColor="#FFD7D7"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="1.0"
+			app:layout_constraintStart_toEndOf="@+id/searchEditText"
+			app:layout_constraintTop_toTopOf="parent" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<LinearLayout
+		android:id="@+id/navigationBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FEFFFF"
+		android:orientation="horizontal"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent">
+
+		<!-- Navigation Bar Buttons -->
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="?android:attr/selectableItemBackground"
+			android:drawableTop="@drawable/home_page"
+			android:gravity="center"
+			android:text="Home"
+			android:textColor="#0E0808" />
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="?android:attr/selectableItemBackground"
+			android:drawableTop="@drawable/get_cash"
+			android:gravity="center"
+			android:text="Sell"
+			android:textColor="#000000" />
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="?android:attr/selectableItemBackground"
+			android:drawableTop="@drawable/shopping_cart"
+			android:gravity="center"
+			android:text="Buy"
+			android:textColor="#0E0E0E" />
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="?android:attr/selectableItemBackground"
+			android:drawableTop="@drawable/notificationicon"
+			android:gravity="center"
+			android:text="Notification"
+			android:textColor="#020202" />
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

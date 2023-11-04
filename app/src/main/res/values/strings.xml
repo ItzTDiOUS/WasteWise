@@ -3,7 +3,7 @@
 	<!-- sign_in strings -->
 	<!-- sign_up strings -->
 
-	<string name="app_name">Page 1</string>
+	<string name="app_name">WasteWise</string>
 	<string name="ek_img_content">ExportKit Image</string>
 	<string name="sign_in_string">Sign in</string>
 	<string name="email_or_user_name_string">Email or User Name</string>
@@ -17,8 +17,31 @@
 	<string name="login_string">Login</string>
 	<string name="passwordn_ek1_string">Confirm Password</string>
 	<string name="sign_up_string">Sign up</string>
+	<string name="username">Username</string>
+
+<!-- home strings -->
 
 
+<string name="input_text_ek2_string">Search</string>
+<string name="trash_to_treasure_string">Trash to Treasure</string>
+<string name="hi__user_string">Hi, User</string>
+<string name="what_are_you_looking_for_today__string">What are you looking for today?</string>
+<string name="home_string">Home</string>
+<string name="buy_string">Buy</string>
+<string name="sell_string">Sell</string>
+<string name="notification_string">Notification</string>
+
+	<!-- _home strings -->
+
+
+
+	<string name="search_string">Search</string>
+	<string name="display_message_string">What are you looking for today?</string>
+	<string name="hello_string">Hello, </string>
+
+
+	<string name="buying_string">Buy</string>
+	<string name="search_icon_2a">search_icon_2a</string>
 
 
 </resources>
