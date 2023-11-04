@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.sign_in);
 
+
         loginbutton=findViewById(R.id.login);
         signupbutton=findViewById(R.id.button2);
         username_var=findViewById(R.id.username_box);
