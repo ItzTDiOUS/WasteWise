@@ -24,7 +24,7 @@
 				android:background="@drawable/_bg__sign_in_shape" />
 
 			<TextView
-				android:id="@+id/sign_in"
+
 				android:layout_width="123dp"
 				android:layout_height="45dp"
 				android:layout_marginLeft="145dp"

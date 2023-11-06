@@ -42,6 +42,8 @@
 
 	<string name="buying_string">Buy</string>
 	<string name="search_icon_2a">search_icon_2a</string>
+    <string name="verify">VERIFY</string>
+	<string name="otp_verification">OTP Verification</string>
 
 
 </resources>
